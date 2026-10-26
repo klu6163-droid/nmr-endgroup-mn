@@ -1,0 +1,117 @@
+{
+  "input_jdf": "REPLACE_WITH_SAMPLE_JDF_PATH",
+  "output_dir": "sample_results",
+  "fid_drop_points": "auto",
+  "line_broadening_hz": 0.3,
+  "zero_fill_factor": 2,
+  "reference": null,
+  "phase_pivot_ppm": 3.5,
+  "phase_regions": [
+    [
+      1.1,
+      1.8
+    ],
+    [
+      2.38,
+      2.62
+    ],
+    [
+      3.95,
+      4.45
+    ],
+    [
+      4.95,
+      5.38
+    ]
+  ],
+  "manual_phase": null,
+  "phase_anchors": [
+    {
+      "center_ppm": 2.5,
+      "half_width_ppm": 0.04,
+      "offsets_ppm": [
+        -0.0063315,
+        -0.0031658,
+        0,
+        0.0031658,
+        0.0063315
+      ],
+      "relative_weights": [
+        1,
+        2,
+        3,
+        2,
+        1
+      ]
+    },
+    {
+      "center_ppm": 5.759,
+      "half_width_ppm": 0.018
+    },
+    {
+      "center_ppm": 5.445,
+      "half_width_ppm": 0.004
+    }
+  ],
+  "baseline_regions": [
+    [
+      0.2,
+      0.6
+    ],
+    [
+      1.85,
+      2.2
+    ],
+    [
+      2.75,
+      2.95
+    ],
+    [
+      3.9,
+      4.0
+    ],
+    [
+      4.35,
+      4.55
+    ],
+    [
+      4.8,
+      4.95
+    ],
+    [
+      5.65,
+      5.9
+    ],
+    [
+      6.2,
+      6.8
+    ],
+    [
+      7.5,
+      8.5
+    ]
+  ],
+  "main_integral_ppm": [
+    5.0,
+    5.35
+  ],
+  "end_integral_ppm": [
+    4.1,
+    4.3
+  ],
+  "peg_mn": 400.0,
+  "repeat_mass": 72.0,
+  "review_search_windows": {
+    "main": [
+      4.8,
+      5.65
+    ],
+    "end": [
+      3.9,
+      4.55
+    ]
+  },
+  "sample_identity": "REPLACE_WITH_CONFIRMED_SAMPLE_IDENTITY",
+  "comparison_end_intervals": [],
+  "observed_contaminant_regions": []
+}

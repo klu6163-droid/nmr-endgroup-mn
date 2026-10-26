@@ -1,0 +1,4 @@
+interface:
+  display_name: "核磁逐谱积分与分子量"
+  short_description: "结合脚本与逐谱判读，审查相位、基线、峰位漂移及端基积分后估算分子量"
+  default_prompt: "使用 $nmr-endgroup-mn 处理这份核磁数据，先检查谱线和积分边界，再按适用结构估算分子量。"

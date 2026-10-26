@@ -1,0 +1,35 @@
+# Local experimental data and generated results
+*.jdf
+*.npz
+*.csv
+*.png
+*.pdf
+sample.json
+review.json
+review_*.json
+config_used.json
+result.json
+diagnostics.json
+solvent_survey.json
+survey/
+preview/
+results/
+output/
+
+# Python environments, caches and credentials
+.venv/
+venv/
+vendor/
+.test-deps/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mplconfig/
+.env
+.env.*
+
+# Editor / OS files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
